@@ -15,7 +15,30 @@
  echo "this is variable $test";
 
 
+//global variable
 
+ $outside = "this is outside";
+
+ //if you try to access without passing it through method it will through error
+
+ function testing(){
+
+    echo "this is global variable $outside";
+ }
+
+ testing();
+
+
+ $outside = "this is outside";
+
+ //if you try to access without passing it through method it will through error
+
+ function testing($test){
+
+    echo "this is global variable $test";
+ }
+
+ testing($outside);
 
 
 
