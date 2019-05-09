@@ -1,0 +1,40 @@
+// print and echo are similar.  It can be used with () or without.  Print will return value 1
+//to indicate print is sucessful.  It can take only one argument.  Echo can take more arguments.
+
+
+#single line comment
+//single line comment
+/*multi line
+ comment */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php
+
+echo "<h2>this is test done</h2>";
+echo date("j M Y");
+echo "</br>";
+
+// print and echo are similar.  It can be used with () or without.  Print will return value 1
+//to indicate print is sucessful.  It can take only one argument.  Echo can take more arguments.
+print "this is print</br>";  
+echo "this is print</br>", "next argument";
+
+#single line comment
+//single line comment
+/*multi line
+ comment */
+ 
+
+?>
