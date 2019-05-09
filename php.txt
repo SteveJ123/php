@@ -8,6 +8,14 @@
  comment */
 
 
+#variables
+
+ $test = "hello";
+
+ echo "this is variable $test";
+
+
+
 
 
 
